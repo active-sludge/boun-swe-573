@@ -33,8 +33,8 @@
         "repositoryURL": "https://github.com/vapor/fluent.git",
         "state": {
           "branch": null,
-          "revision": "4004e926cdef1fbb937501c8a60554349cced675",
-          "version": "4.2.0"
+          "revision": "c67c33ad788445406a5bf6a63880229e5f580577",
+          "version": "4.3.0"
         }
       },
       {
@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/vapor/fluent-kit.git",
         "state": {
           "branch": null,
-          "revision": "ea23e12404dc3a598dd8f3084650550d2b6b1ac5",
-          "version": "1.12.0"
+          "revision": "e22fb0973725b662319fd4a7365988f1ae796e27",
+          "version": "1.12.1"
         }
       },
       {
@@ -204,8 +204,8 @@
         "repositoryURL": "https://github.com/vapor/vapor.git",
         "state": {
           "branch": null,
-          "revision": "c6848e0f3ee726ba0ead5a9f4a338829085b65d5",
-          "version": "4.45.3"
+          "revision": "bc194e3868cbd9cf3cd41392e9b10d6fad089bc4",
+          "version": "4.45.7"
         }
       },
       {
@@ -213,8 +213,8 @@
         "repositoryURL": "https://github.com/vapor/websocket-kit.git",
         "state": {
           "branch": null,
-          "revision": "2b06a70dfcfa76a2e5079f60e3ae911511f09db0",
-          "version": "2.1.2"
+          "revision": "a2d26b3de8b3be292f3208d1c74024f76ac503da",
+          "version": "2.1.3"
         }
       }
     ]

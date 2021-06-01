@@ -15,5 +15,8 @@ func routes(_ app: Application) throws {
     let tagsController = TagsController()
     try app.register(collection: tagsController)
     
+    let websiteController = WebsiteController()
+    try app.register(collection: websiteController)
+    
     
 }

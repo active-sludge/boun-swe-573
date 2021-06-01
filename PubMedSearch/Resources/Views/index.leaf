@@ -1,12 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+#extend("base"):
+#export("content"):
+<img src="/images/logo.png" class="mx-auto d-block" alt="PubMedSerach Logo" />
 
-  <title>#(title)</title>
-</head>
+<div class="input-group">
+  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+    aria-describedby="search-addon" />
+  <button type="button" class="btn btn-outline-primary">search</button>
+</div>
 
-<body>
-  <h1>#(title)</h1>
-</body>
-</html>
+<h1>Article</h1>
+
+#extend("articlesTable")
+
+#endexport
+
+#endextend

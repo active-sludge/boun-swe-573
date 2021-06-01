@@ -1,0 +1,25 @@
+#if(count(articles) > 0):
+<table class="table table-bordered table-hover">
+    <thead class="thead-light">
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- 6 -->
+        #for(article in articles):
+        <tr>
+            <td>
+                <a href="/articles/#(article.id)">
+                    #(article.title)
+                </a>
+            </td>
+            <td>#(article.author)</td>
+        </tr>
+        #endfor
+    </tbody>
+</table>
+#else:
+<h2>There aren’t any articles yet!</h2>
+#endif

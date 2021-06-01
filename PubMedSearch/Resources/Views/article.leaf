@@ -1,0 +1,9 @@
+#extend("base"):
+#export("content"):
+    <h1>#(article.title)</h1>
+    <h2>#(article.author)</h2>
+
+    <p>Created by <a href="/users/#(user.id)/">#(user.name)</a></p>
+
+#endexport
+#endextend
